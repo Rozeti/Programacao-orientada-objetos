@@ -133,3 +133,16 @@ select * from aluno;
 SHOW TABLES;
 
 select * from matricula_disciplina;
+
+SELECT denominacao, nota_prova_1, nota_prova_2, nota_prova_3, nota_prova_4 FROM nota, disciplina, aluno
+where disciplina.codigo = nota.disciplina_codigo and
+aluno.cod_aluno = nota.aluno_cod_aluno and
+aluno.matricula_aluno= 2023006;
+
+select * from disciplina;
+select * from matricula_disciplina;
+select * from nota;
+select * from aluno;
+select * from professor;
+select * from departamento;
+select * from curso;
