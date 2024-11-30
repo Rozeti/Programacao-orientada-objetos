@@ -47,6 +47,7 @@ As cores escolhidas para a interface foram definidas para oferecer uma experiên
 1. Clone este repositório:
    ```bash
    git clone https://github.com/seu-usuario/sistema-gerenciamento-notas.git
+<br><br>
 
    ## ✒️ 4. Autores do Sistma: 
   -> Cristhiane Tamilly de Menezes Carvalho
